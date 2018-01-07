@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+* {
+    box-sizing: content-box
+}
+
+body {
+  margin: 10px;
+}
+
+/* Style the header */
+.header {
+    background-color: #f5B041;
+	text-align: center;
+    padding: 20px;
+}
+
+/* the navbar container */
+.menu {
+	 overflow: hidden;
+    background-color: #F5B041;
+}
+
+/* Style the topnav links */
+.menu a {
+    float: left;
+    display: block;
+    color: #F5B041;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*/* Links - change color on hover */
+.menu a {
+    background-color: #F5B041;
+    color: black;
+}
+
+/* Style the content */
+.content {
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+}
+
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: ;
+}
+
+}
+
+/* left and right column */
+.column.side {
+    width: 30%;
+}
+/* middle column */
+.column.middle {
+    width: 70%;
+}
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    
+}
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+
+}
+</style>
+<body>
+
+<div class="header">
+		<h1>MY CV</h1>
+			<p>codingmum participants</p>
+</div>
+	
+<div class="column navbar">
+		<a href="http://www.facebook.com/rahma.yeni.7">facebook</a>
+		<a href="mailto:rahmatri6@gmail.com">email rahma</a>
+		<a href="http://www.whatsapp.com/send?phone=60172037134">whatsapp me</a>
+</div>
+
+<div class="column side">
+		<h2>profile</h2>
+		<img src="images/rahmayeni2.jpg" style="width:
+		350px; height: 350px;">
+</div>
+		
+<div class="column middle">
+		<h2 style="color:brown">full name:rahma tri yeni</H2>
+		<h3 style="color:brown">occupation:full time helper</H3>
+	</div>
+
+<div class="column content">
+	<h2 style="color:brown">hobbies</h2>
+	<H3>shooping</H3>
+	<h3>traveling</h3>
+	<h3>working</h3>
+
+</div>
+ <div class="column content right">
+    <h2 style="color:orange">education</h2>
+    <h3>finish high school in 2004</h3>
+	</div>
+<div class="column middle">
+	<h4 style="color:brown" >about me</h4>
+		<p> hi ... my name rahma, i have 3 siblings and i am the smallest one, and iam very close with my first older sister I like to take what she likes including her favorite food until finally the food becomes a chicken meal haha ​​i love my family so much, rarely say it to them, when the financial condition of the family falls and we do not have anything else, I finally decided to work as a TKI in malaysia
+
+it was initially difficult to live away from the family, but I had to stay strong and passion for myself and my family, here I found a lot of new experiences as well as my new friends, my days seem to be fun even though there is a sense of longing. now it's been my 5th year in malaysia, i want to go home and want to start my own business. with the capital of science and the material I have now I hope I can start my new life in my homeland
+
+so little story from me, it's nothing special of me, but i know i am a strong girl to face it all hurt thing my life, never stop praying, effort, and trusting, one day God will give a better life.</P>
+<br></br>
+		
+</div>
+
+<div class="footer">
+	<h2>codingmum</h2>
+</div>
+  
+</body>
+</html>
